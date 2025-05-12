@@ -39,12 +39,12 @@
             this.btnResetear = new System.Windows.Forms.Button();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.GBoxEntradas = new System.Windows.Forms.GroupBox();
+            this.txtAltura = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtBaseMenor = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtBaseMayor = new System.Windows.Forms.TextBox();
             this.lblRadio = new System.Windows.Forms.Label();
-            this.txtAltura = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.gBoxSalidas.SuspendLayout();
@@ -55,18 +55,22 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.picCanvas);
-            this.groupBox1.Location = new System.Drawing.Point(317, 42);
+            this.groupBox1.Location = new System.Drawing.Point(238, 34);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(453, 365);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(340, 297);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Grafico:";
             // 
             // picCanvas
             // 
-            this.picCanvas.Location = new System.Drawing.Point(7, 22);
+            this.picCanvas.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.picCanvas.Location = new System.Drawing.Point(5, 18);
+            this.picCanvas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(440, 337);
+            this.picCanvas.Size = new System.Drawing.Size(330, 274);
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
             // 
@@ -76,42 +80,48 @@
             this.gBoxSalidas.Controls.Add(this.label2);
             this.gBoxSalidas.Controls.Add(this.txtPerimetro);
             this.gBoxSalidas.Controls.Add(this.label1);
-            this.gBoxSalidas.Location = new System.Drawing.Point(31, 308);
+            this.gBoxSalidas.Location = new System.Drawing.Point(23, 250);
+            this.gBoxSalidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gBoxSalidas.Name = "gBoxSalidas";
-            this.gBoxSalidas.Size = new System.Drawing.Size(252, 100);
+            this.gBoxSalidas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gBoxSalidas.Size = new System.Drawing.Size(189, 81);
             this.gBoxSalidas.TabIndex = 20;
             this.gBoxSalidas.TabStop = false;
             this.gBoxSalidas.Text = "Salidas";
             // 
             // txtArea
             // 
-            this.txtArea.Location = new System.Drawing.Point(88, 55);
+            this.txtArea.Location = new System.Drawing.Point(66, 45);
+            this.txtArea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtArea.Name = "txtArea";
-            this.txtArea.Size = new System.Drawing.Size(100, 22);
+            this.txtArea.Size = new System.Drawing.Size(76, 20);
             this.txtArea.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 58);
+            this.label2.Location = new System.Drawing.Point(13, 47);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 16);
+            this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Area";
             // 
             // txtPerimetro
             // 
-            this.txtPerimetro.Location = new System.Drawing.Point(88, 27);
+            this.txtPerimetro.Location = new System.Drawing.Point(66, 22);
+            this.txtPerimetro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPerimetro.Name = "txtPerimetro";
-            this.txtPerimetro.Size = new System.Drawing.Size(100, 22);
+            this.txtPerimetro.Size = new System.Drawing.Size(76, 20);
             this.txtPerimetro.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 30);
+            this.label1.Location = new System.Drawing.Point(13, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 16);
+            this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Perimetro";
             // 
@@ -119,18 +129,21 @@
             // 
             this.GboxProceso.Controls.Add(this.btnResetear);
             this.GboxProceso.Controls.Add(this.btnCalcular);
-            this.GboxProceso.Location = new System.Drawing.Point(31, 173);
+            this.GboxProceso.Location = new System.Drawing.Point(23, 141);
+            this.GboxProceso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GboxProceso.Name = "GboxProceso";
-            this.GboxProceso.Size = new System.Drawing.Size(252, 100);
+            this.GboxProceso.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GboxProceso.Size = new System.Drawing.Size(189, 81);
             this.GboxProceso.TabIndex = 19;
             this.GboxProceso.TabStop = false;
             this.GboxProceso.Text = "Proceso";
             // 
             // btnResetear
             // 
-            this.btnResetear.Location = new System.Drawing.Point(127, 42);
+            this.btnResetear.Location = new System.Drawing.Point(95, 34);
+            this.btnResetear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnResetear.Name = "btnResetear";
-            this.btnResetear.Size = new System.Drawing.Size(100, 23);
+            this.btnResetear.Size = new System.Drawing.Size(75, 19);
             this.btnResetear.TabIndex = 1;
             this.btnResetear.Text = "Resetear";
             this.btnResetear.UseVisualStyleBackColor = true;
@@ -138,9 +151,10 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(20, 42);
+            this.btnCalcular.Location = new System.Drawing.Point(15, 34);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(100, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(75, 19);
             this.btnCalcular.TabIndex = 0;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -154,71 +168,81 @@
             this.GBoxEntradas.Controls.Add(this.label3);
             this.GBoxEntradas.Controls.Add(this.txtBaseMayor);
             this.GBoxEntradas.Controls.Add(this.lblRadio);
-            this.GBoxEntradas.Location = new System.Drawing.Point(31, 42);
+            this.GBoxEntradas.Location = new System.Drawing.Point(23, 34);
+            this.GBoxEntradas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GBoxEntradas.Name = "GBoxEntradas";
-            this.GBoxEntradas.Size = new System.Drawing.Size(252, 110);
+            this.GBoxEntradas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GBoxEntradas.Size = new System.Drawing.Size(189, 89);
             this.GBoxEntradas.TabIndex = 18;
             this.GBoxEntradas.TabStop = false;
             this.GBoxEntradas.Text = "Entradas";
             // 
-            // txtBaseMenor
-            // 
-            this.txtBaseMenor.Location = new System.Drawing.Point(107, 48);
-            this.txtBaseMenor.Name = "txtBaseMenor";
-            this.txtBaseMenor.Size = new System.Drawing.Size(100, 22);
-            this.txtBaseMenor.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 51);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Base Menor:";
-            // 
-            // txtBaseMayor
-            // 
-            this.txtBaseMayor.Location = new System.Drawing.Point(107, 17);
-            this.txtBaseMayor.Name = "txtBaseMayor";
-            this.txtBaseMayor.Size = new System.Drawing.Size(100, 22);
-            this.txtBaseMayor.TabIndex = 1;
-            // 
-            // lblRadio
-            // 
-            this.lblRadio.AutoSize = true;
-            this.lblRadio.Location = new System.Drawing.Point(18, 23);
-            this.lblRadio.Name = "lblRadio";
-            this.lblRadio.Size = new System.Drawing.Size(83, 16);
-            this.lblRadio.TabIndex = 0;
-            this.lblRadio.Text = "Base Mayor:";
-            // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(107, 76);
+            this.txtAltura.Location = new System.Drawing.Point(80, 62);
+            this.txtAltura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(100, 22);
+            this.txtAltura.Size = new System.Drawing.Size(76, 20);
             this.txtAltura.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 79);
+            this.label4.Location = new System.Drawing.Point(14, 64);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "Altura:";
             // 
-            // FrmTrapecio
+            // txtBaseMenor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.txtBaseMenor.Location = new System.Drawing.Point(80, 39);
+            this.txtBaseMenor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBaseMenor.Name = "txtBaseMenor";
+            this.txtBaseMenor.Size = new System.Drawing.Size(76, 20);
+            this.txtBaseMenor.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 41);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Base Menor:";
+            // 
+            // txtBaseMayor
+            // 
+            this.txtBaseMayor.Location = new System.Drawing.Point(80, 14);
+            this.txtBaseMayor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBaseMayor.Name = "txtBaseMayor";
+            this.txtBaseMayor.Size = new System.Drawing.Size(76, 20);
+            this.txtBaseMayor.TabIndex = 1;
+            // 
+            // lblRadio
+            // 
+            this.lblRadio.AutoSize = true;
+            this.lblRadio.Location = new System.Drawing.Point(14, 19);
+            this.lblRadio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblRadio.Name = "lblRadio";
+            this.lblRadio.Size = new System.Drawing.Size(66, 13);
+            this.lblRadio.TabIndex = 0;
+            this.lblRadio.Text = "Base Mayor:";
+            // 
+            // FrmTrapecioIso
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gBoxSalidas);
             this.Controls.Add(this.GboxProceso);
             this.Controls.Add(this.GBoxEntradas);
-            this.Name = "FrmTrapecio";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "FrmTrapecioIso";
             this.Text = "FrmTrapecio";
             this.Load += new System.EventHandler(this.FrmTrapecio_Load);
             this.groupBox1.ResumeLayout(false);
