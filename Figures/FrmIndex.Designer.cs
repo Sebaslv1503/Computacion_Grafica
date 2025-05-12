@@ -52,7 +52,6 @@
             this.octagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eneagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.decagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.informacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -74,7 +73,6 @@
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.romboToolStripMenuItem,
-            this.informacionToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
@@ -258,13 +256,6 @@
             this.decagonoToolStripMenuItem.Text = "Decagono";
             this.decagonoToolStripMenuItem.Click += new System.EventHandler(this.decagonoToolStripMenuItem_Click);
             // 
-            // informacionToolStripMenuItem
-            // 
-            this.informacionToolStripMenuItem.Name = "informacionToolStripMenuItem";
-            this.informacionToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
-            this.informacionToolStripMenuItem.Text = "Informacion";
-            this.informacionToolStripMenuItem.Click += new System.EventHandler(this.informacionToolStripMenuItem_Click);
-            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
@@ -420,7 +411,6 @@
         private System.Windows.Forms.ToolStripMenuItem octagonoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eneagonoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem decagonoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem informacionToolStripMenuItem;
         private System.Windows.Forms.PictureBox picFiguras;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
