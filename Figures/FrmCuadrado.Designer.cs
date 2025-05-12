@@ -76,7 +76,7 @@
             this.gBoxSalidas.Controls.Add(this.label2);
             this.gBoxSalidas.Controls.Add(this.txtPerimetro);
             this.gBoxSalidas.Controls.Add(this.label1);
-            this.gBoxSalidas.Location = new System.Drawing.Point(400, 21);
+            this.gBoxSalidas.Location = new System.Drawing.Point(400, 35);
             this.gBoxSalidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gBoxSalidas.Name = "gBoxSalidas";
             this.gBoxSalidas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -125,7 +125,7 @@
             // 
             this.GboxProceso.Controls.Add(this.btnResetear);
             this.GboxProceso.Controls.Add(this.btnCalcular);
-            this.GboxProceso.Location = new System.Drawing.Point(199, 21);
+            this.GboxProceso.Location = new System.Drawing.Point(198, 35);
             this.GboxProceso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GboxProceso.Name = "GboxProceso";
             this.GboxProceso.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -160,7 +160,7 @@
             // 
             this.GBoxEntradas.Controls.Add(this.txtLado);
             this.GBoxEntradas.Controls.Add(this.lblRadio);
-            this.GBoxEntradas.Location = new System.Drawing.Point(11, 21);
+            this.GBoxEntradas.Location = new System.Drawing.Point(11, 35);
             this.GBoxEntradas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GBoxEntradas.Name = "GBoxEntradas";
             this.GBoxEntradas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);

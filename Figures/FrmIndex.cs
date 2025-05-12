@@ -146,11 +146,7 @@ namespace Figures
             this.Text = "Deltoide";
         }
 
-        private void informacionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OpenForm(new FrmInfo());
-            this.Text = "Información";
-        }
+        
     }
 }
  

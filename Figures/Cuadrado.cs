@@ -10,7 +10,7 @@ namespace Figures
         private float mArea;
         private float mPerimetro;
         private Graphics mGraph;
-        private const float SF = 20; // Factor de escala
+        private const float SF = 20; 
         private Pen mPen;
 
         public Cuadrado()
@@ -20,7 +20,6 @@ namespace Figures
             mPerimetro = 0.0f;
         }
 
-        // Leer el lado del cuadrado
         public void ReadData(TextBox txtLado)
         {
             try
@@ -38,7 +37,7 @@ namespace Figures
             }
         }
 
-        // Calcular área y perímetro
+       
         public void AreaCuadrado()
         {
             mArea = mLado * mLado;
@@ -49,14 +48,13 @@ namespace Figures
             mPerimetro = 4 * mLado;
         }
 
-        // Mostrar resultados
+        
         public void PrintData(TextBox txtPerimetro, TextBox txtArea)
         {
             txtPerimetro.Text = mPerimetro.ToString("0.00");
             txtArea.Text = mArea.ToString("0.00");
         }
 
-        // Limpiar todo
         public void InitializeData(TextBox txtLado, TextBox txtPerimetro,
                                    TextBox txtArea, PictureBox picCanvas)
         {
@@ -71,7 +69,6 @@ namespace Figures
             picCanvas.Refresh();
         }
 
-        // Dibujar cuadrado
         public void PlotShape(PictureBox picCanvas)
         {
             mGraph = picCanvas.CreateGraphics();

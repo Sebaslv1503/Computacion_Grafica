@@ -6,12 +6,12 @@ namespace Figures
 {
     internal class Elipse
     {
-        private float mEjeMayor;     // Semieje mayor (a)
-        private float mEjeMenor;     // Semieje menor (b)
-        private float mPerimetro;    // Perímetro aproximado
-        private float mArea;         // Área
+        private float mEjeMayor;    
+        private float mEjeMenor;   
+        private float mPerimetro;   
+        private float mArea;        
         private Graphics mGraph;
-        private const float SF = 20; // Factor de escala
+        private const float SF = 20; 
         private Pen mPen;
 
         public Elipse()
@@ -48,7 +48,7 @@ namespace Figures
 
         public void PerimeterElipse()
         {
-            // Aproximación de Ramanujan para el perímetro de una elipse
+
             float a = mEjeMayor;
             float b = mEjeMenor;
             mPerimetro = (float)(Math.PI * (3 * (a + b) - Math.Sqrt((3 * a + b) * (a + 3 * b))));

@@ -10,7 +10,7 @@ namespace Figures
         private float mPerimetro;
         private float mArea;
         private Graphics mGraph;
-        private const float SF = 20; // Factor de escala
+        private const float SF = 20; 
         private Pen mPen;
 
         public Decagono()
@@ -45,7 +45,7 @@ namespace Figures
 
         public void AreaDecagono()
         {
-            // Área de un decágono regular con radio circunscrito
+            
             mArea = (10f / 2f) * mRadio * mRadio * (float)Math.Sin(2 * Math.PI / 10);
         }
 
